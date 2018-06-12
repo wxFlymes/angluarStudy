@@ -36,3 +36,42 @@ body{
     height: 45px;
     background-color: green;
 }
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rememberPwd{
+    position: relative;
+    margin-left: 7.5%;
+    height: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rememberPwd a{
+    position: relative;
+    margin-left: 5px;
+    width: 100px;
+    height: 18px;
+    line-height: 18px;
+}
+.rememberPwd input{
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+.forgetPwd{
+    position: relative;
+    margin-right: 7.5%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.forgetPwd a{
+    position: relative;
+}
